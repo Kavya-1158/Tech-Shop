@@ -649,7 +649,7 @@ footer {
 }
 
 .original-price1 {
-    font-size: 0.85em;
+    font-size: 0.84em;
     color: #999999; /* Grey for original price */
     text-decoration: line-through; /* Strikethrough effect */
     padding-top: 10px;
