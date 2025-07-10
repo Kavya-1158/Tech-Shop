@@ -690,7 +690,7 @@ footer {
   header ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 21px;
   }
   .list-item a {
     color: white;
