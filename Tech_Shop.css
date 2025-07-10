@@ -4,13 +4,11 @@ body {
     background-color: #343333;
     color: #eee;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -19,50 +17,43 @@ header {
     border-bottom: 1px solid #333;
     margin-bottom: 40px;
 }
-
 .logo {
     font-size: 1.5em;
     font-weight: bold;
 
 }
-
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
-
 nav li {
     margin-left: 20px;
 }
-
 nav a {
     text-decoration: none;
     color: #ccc;
     transition: color 0.3s ease;
 }
-
 nav a:hover {
     color: #fff;
 }
-
 .hero {
     display: flex;
     gap: 50px;
     align-items: center;
     margin-bottom: 60px;
 }
-
 .hero-text {
     flex: 0.5;
 }
 .hero-image {
     flex: 1;
     text-align: center;
+  
     
 }
-
 .hero-image img {
     max-width: 100%;
     height: auto;
@@ -104,8 +95,6 @@ nav a:hover {
 .featured-products {
     /* margin-bottom: 60px; */
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 5fr)); */
-    /* display: block; */
    
 }
 
@@ -289,12 +278,6 @@ footer {
     object-fit: contain;
 }
 
-/* .featured-products .product-card img,
-.top-products .product-card img {
-    max-height: 150px; /* Adjust as needed */
-    /* object-fit: contain;
-} */ */
-
 .advantage-card {
     display: flex;
     flex-direction: column;
@@ -370,25 +353,7 @@ footer {
    
 }
 
-/* .view-all-products {
-    text-align: center;
-    margin-top: 30px;
-}
 
-.view-all-products a {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    
-}
-
-.view-all-products a:hover {
-    background-color: #555;
-} */
 .browse-container{
     display: flex;
     /* justify-content: center; */
@@ -398,11 +363,6 @@ footer {
     border: 1px solid rgb(97, 94, 94); 
     text-align: center;
 }
-
-
-
-
-
 
 .footer {
   color: #fff;
@@ -494,8 +454,6 @@ footer {
 
 .row {
   display: flex;
-  /* gap: 10px; */
-  /* padding: 20px; */
   flex-wrap: wrap; /* So it wraps on smaller screens */
   padding-bottom: 30px;
 }
@@ -573,14 +531,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
-    /* display: inline-flex; */
-    /* justify-content: center; */
-     /* justify-content:left; */
-    align-items: center;
-    
-    
-    
 
+    align-items: center;
     
 }
 
